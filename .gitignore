@@ -1,0 +1,6 @@
+/venv
+/node_modules
+/data/output/a
+/data/output/b
+/.idea
+.DS_Store
