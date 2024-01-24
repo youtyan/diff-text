@@ -30,6 +30,15 @@ npm install
 ## ファイルの配置
 `data/input.csv` に比較したいファイルを配置する
 
+### input.csvファイルのフォーマット
+```text
+ID,TEXT1,TEXT2
+1,比較したい文字A,比較したい文字B
+2,"改行もOK
+改行もOK","改行もOK"
+```
+※ 改行がある場合はダブルクォーテーションで囲む
+
 ## 比較用のファイルを作成
 ```bash
 python main.py
