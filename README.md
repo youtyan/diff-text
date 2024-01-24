@@ -39,3 +39,6 @@ python main.py
 ```bash
 diff -u data/output/a data/output/b | npx diff2html --input stdin --style side
 ```
+
+## 出力サンプル
+![image](docs/output_sample.png)
